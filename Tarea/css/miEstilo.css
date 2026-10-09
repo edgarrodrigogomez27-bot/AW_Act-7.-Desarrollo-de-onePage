@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.contedo {
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100vh; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+
+#zona-progenitor {
+    background-image: url(../image/virus_progenitor.jpg);
+}
+
+#zona-t {
+    background-image: url(../image/virus_t.jpg);
+}
+
+#zona-g {
+    background-image: url(../image/virus_g.jpg);
+}
+
+#zona-veronica {
+    background-image: url(../image/virus_veronica.jpg);
+}
+
+#zona-uroboros {
+    background-image: url(../image/virus_uroboros.png);
+}
+
+#zona-c {
+    background-image: url(../image/virus_c.jpg);
+}
+
+
+nav {
+    position: fixed;
+    left: 100px; 
+    top: 25%;
+    z-index: 100;
+    transition: 0.4s ease;
+    transform: translateX(-50%);
+}
+ 
+ul {
+    list-style: none;
+}
+
+ul a {
+    display: block;
+    color: #ff3333; 
+    text-decoration: none;
+    height: 45px;
+    border: 1px solid #ff3333;
+    width: 150px;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7); 
+    transition: 0.4s ease;
+    margin-bottom: 5px; 
+}
+ 
+ul a:hover {
+    background-color: #ff3333;
+    color: white;
+    transform: translateX(10%);
+}
+
+.info-box {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 30px;
+    width: 450px;
+    border-left: 5px solid #ff3333;
+    border-radius: 4px;
+}
+
+.info-box h2 {
+    color: #ff3333;
+    margin-bottom: 10px;
+}
+
+.info-box ul {
+    list-style: square;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.info-box li {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
